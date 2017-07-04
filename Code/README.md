@@ -5,7 +5,7 @@ BH_N-Body_Simulations Folder contains N_Body simulations from Holger B. (author 
 and analysis using maximum likelihood.
 (Plummer model analysis is done, King in progress)
 
-PLUMMER
+# PLUMMER (can be found on the jmd@phas cluster):
 
 plummer_center folder contains (plummer model) analysis to fit the centre of the cluster using the max. likelihood method
 (result only slightly different, no major impact on BH-mass results)
@@ -18,15 +18,15 @@ position-errors and the subfolder position_erors_fit contains bootstraped trials
 important files are found in Data_results_plots
 
 
-KING-MODEL
-a_differenetiation: contains attempt to include 2 different a's into the king model fit. (unfinished)
+# KING-MODEL
+a_differentiation: contains attempt to include 2 different a's into the king model fit. (unfinished)
 
 King_bootstrap+random: contains bootstrap data(N= 100000 of 47 tuc using single "a" king model) in King_bootstrap_result
 needs evaluation.
 --King_random_result: result of generating 100000 random 47 tuc like clusters wit no/best fit BH and refitting using singal "a" king model
 --King_resample_cluster: code used on computer cluster to produce resampling. 
 
-King_model_chris_data: contains Swantje's code utilizing chris' data to compare results with each other. 
+
 
 files: 
 king-model: produces king model analysis using single "a" model. 
