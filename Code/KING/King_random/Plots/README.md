@@ -9,8 +9,8 @@ for example hist_a_BH(_00).png is the histogram for the a variable when using bl
 
 most interesting plots are 
 
-![] (hist_MB_00_BH.png)
+![mbh_00] (hist_MB_00_BH.png)
 showing the resulting black hole mass when fitting no black hole systems and
 
-![] (hist_lnL_BH_BH.png) 
+![lnL_bh] (hist_lnL_BH_BH.png) 
 showing the likelihood distribution for the black hole fitting. 
